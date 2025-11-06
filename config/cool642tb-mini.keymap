@@ -44,10 +44,10 @@
 
         default_layer {
             bindings = <
-&kp Q                      &kp W                      &kp E                  &kp R      &kp T                                                           &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&lt 3 A                    &kp S                      &kp D                  &lt 4 F    &kp G        &kp LC(Y)      &mt LG(LS(NUMBER_4)) LEFT_BRACKET   &kp H        &kp J  &kp K      &kp L    &mt LEFT_SHIFT MINUS
-&mt LEFT_CONTROL Z         &kp X                      &kp C                  &kp V      &kp B        &kp LANG2      &mt LG(LS(NUMBER_5)) RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_GUI SLASH
-&mt LEFT_COMMAND NUMBER_1  &mt LEFT_CONTROL NUMBER_2  &mt LEFT_ALT NUMBER_3  &lt 1 TAB  &lt 2 SPACE  &kp LANG1      &mt RSHFT BACKSPACE                 &lt 6 ENTER                             &lt 4 ESCAPE
+&kp Q                      &kp W                      &kp E                  &kp R      &kp T                                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&lt 3 A                    &kp S                      &kp D                  &lt 4 F    &kp G        &kp LC(Y)        &mt LG(LS(NUMBER_4)) LEFT_BRACKET   &kp H        &kp J  &kp K      &kp L    &mt LEFT_SHIFT MINUS
+&mt LEFT_CONTROL Z         &kp X                      &kp C                  &kp V      &kp B        &kp LANG2        &mt LG(LS(NUMBER_5)) RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_GUI SLASH
+&mt LEFT_COMMAND NUMBER_1  &mt LEFT_CONTROL NUMBER_2  &mt LEFT_ALT NUMBER_3  &lt 1 TAB  &lt 2 SPACE  &lt 3 LANG1      &mt RSHFT BACKSPACE                 &lt 6 ENTER                             &lt 4 ESCAPE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
