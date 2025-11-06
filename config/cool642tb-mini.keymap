@@ -74,8 +74,8 @@
         ARROW {
             bindings = <
 &kp ESCAPE  &trans  &trans  &trans  &trans                      &trans  &trans          &kp UP_ARROW    &trans     &trans
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp BACKSPACE
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans     &trans
+&kp TAB     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp BACKSPACE
+&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK       &mkp MCLK       &mkp LCLK  &trans
 &kp N7      &kp N8  &kp N9  &trans  &trans  &trans      &trans  &trans                                             &trans
             >;
 
