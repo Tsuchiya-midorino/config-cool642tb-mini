@@ -55,10 +55,10 @@
 
         FunctionNum {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &trans                               &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
-&trans  &kp F4  &kp F5  &kp F6  &trans  &trans      &kp EXCLAMATION  &mkp LCLK     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&trans  &kp F7  &kp F8  &kp F9  &trans  &trans      &kp QUESTION     &mkp RCLK     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp N0  &trans  &trans  &trans  &trans  &trans      &mkp MB3         &kp NUMBER_0                                            &kp ENTER
+&trans        &kp F1  &kp F2  &kp F3  &trans                               &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
+&kp EXCL      &kp F4  &kp F5  &kp F6  &trans  &trans      &kp EXCLAMATION  &mkp LCLK     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&kp QUESTION  &kp F7  &kp F8  &kp F9  &trans  &trans      &kp QUESTION     &mkp RCLK     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERCENT
+&kp N0        &trans  &trans  &trans  &trans  &trans      &mkp MB3         &kp NUMBER_0                                            &kp ENTER
             >;
         };
 
