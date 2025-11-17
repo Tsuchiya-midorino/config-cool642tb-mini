@@ -64,10 +64,10 @@
 
         Symbol {
             bindings = <
-&kp LS(EXCL)  &kp AT        &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                              &kp CARET    &kp AMPERSAND  &kp LS(UNDER)  &kp TILDE     &kp MINUS
-&kp SQT       &kp LS(LBRC)  &kp LBKT       &kp LS(LPAR)  &kp LS(DQT)    &kp LS(LT)      &kp LS(GT)  &kp LS(DQT)  &kp LS(RPAR)   &kp RBKT       &kp LS(RBRC)  &kp SQT
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4   &trans          &trans      &trans       &trans         &trans         &kp PIPE      &kp BACKSLASH
-&kp NUMBER_4  &kp N5        &kp NUMBER_6   &trans        &trans         &trans          &trans      &trans                                                   &trans
+&kp LS(EXCL)  &kp AT        &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                              &kp CARET    &kp AMPERSAND         &kp LS(UNDER)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp SQT       &kp LS(LBRC)  &kp LBKT       &kp LS(LPAR)  &kp LS(DQT)    &kp LS(LT)      &kp LS(GT)  &kp LS(DQT)  &kp LS(LEFT_BRACKET)  &kp RBKT       &kp COLON             &kp RS(SEMI)
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4   &kp EQUAL       &trans      &trans       &trans                &kp LESS_THAN  &kp GREATER_THAN      &kp QMARK
+&kp NUMBER_4  &kp N5        &kp NUMBER_6   &trans        &trans         &trans          &trans      &trans                                                                  &trans
             >;
         };
 
