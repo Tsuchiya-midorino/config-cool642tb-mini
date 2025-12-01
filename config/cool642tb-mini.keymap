@@ -17,14 +17,24 @@
     combos {
         compatible = "zmk,combos";
 
-        shift_tab {
-            bindings = <&kp LANG2>;
-            key-positions = <12 13>;
+        leftclick {
+            bindings = <&mkp LCLK>;
+            key-positions = <18 19>;
         };
 
-        lang {
-            bindings = <&kp LANG1>;
-            key-positions = <18 19>;
+        rightclick {
+            bindings = <&mkp RCLK>;
+            key-positions = <20>;
+        };
+
+        middleclick {
+            bindings = <&mkp MCLK>;
+            key-positions = <17 19>;
+        };
+
+        eng {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <39 38>;
         };
     };
 
