@@ -135,7 +135,7 @@
             >;
         };
 
-        layer_6 {
+        BTSymbol {
             bindings = <
 &kp MINUS         &kp PLUS           &kp PIPE       &kp TILDE         &trans                                                    &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2          &trans                 &trans
 &kp UNDER         &kp EQUAL          &kp BACKSLASH  &kp GRAVE         &trans             &trans                &kp EXCLAMATION  &kp AT         &kp HASH      &kp DOLLAR            &kp PERCENT            &trans
