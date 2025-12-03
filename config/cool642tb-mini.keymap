@@ -76,6 +76,11 @@
             bindings = <&kp LG(X)>;
             key-positions = <11 13>;
         };
+
+        mouseclick4 {
+            bindings = <&mkp MB4>;
+            key-positions = <17 18>;
+        };
     };
 
     behaviors {
