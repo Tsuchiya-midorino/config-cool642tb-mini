@@ -91,6 +91,16 @@
             bindings = <&bootloader>;
             key-positions = <9 5>;
         };
+
+        SysResetR {
+            bindings = <&sys_reset>;
+            key-positions = <6 8>;
+        };
+
+        SysresetL {
+            bindings = <&sys_reset>;
+            key-positions = <3 1>;
+        };
     };
 
     behaviors {
