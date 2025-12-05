@@ -82,9 +82,14 @@
             key-positions = <17 18>;
         };
 
-        Bootloader {
+        BootloaderL {
             bindings = <&bootloader>;
             key-positions = <0 4>;
+        };
+
+        BootloaderR {
+            bindings = <&bootloader>;
+            key-positions = <9 5>;
         };
     };
 
