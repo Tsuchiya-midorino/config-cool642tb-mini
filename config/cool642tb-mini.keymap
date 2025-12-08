@@ -85,6 +85,7 @@
         BootloaderL {
             bindings = <&bootloader>;
             key-positions = <0 4>;
+            slow-release;
         };
 
         BootloaderR {
@@ -150,7 +151,7 @@
             bindings = <
 &kp ESCAPE  &trans  &trans  &trans  &trans                      &trans  &trans          &kp UP_ARROW    &trans     &trans
 &kp TAB     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp BACKSPACE
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK       &mkp MCLK       &mkp LCLK  &trans
+&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans     &trans
 &trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans                                             &trans
             >;
 
