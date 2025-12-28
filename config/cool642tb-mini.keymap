@@ -17,12 +17,6 @@
     combos {
         compatible = "zmk,combos";
 
-        lclk {
-            bindings = <&mkp MB1>;
-            key-positions = <18 19>;
-            timeout-ms = <0>;
-        };
-
         rclk {
             bindings = <&mkp RCLK>;
             key-positions = <20 19>;
@@ -72,6 +66,11 @@
         Rshift {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <33 32>;
+        };
+
+        leftclic {
+            bindings = <&mkp LCLK>;
+            key-positions = <18 19>;
         };
     };
 
