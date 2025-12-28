@@ -18,7 +18,7 @@
         compatible = "zmk,combos";
 
         lclk {
-            bindings = <&mkp LCLK>;
+            bindings = <&mkp MB1>;
             key-positions = <18 19>;
             timeout-ms = <0>;
         };
