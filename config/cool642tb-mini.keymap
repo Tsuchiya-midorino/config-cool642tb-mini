@@ -72,6 +72,16 @@
             bindings = <&mkp MB4>;
             key-positions = <17 18>;
         };
+
+        right-bootloader {
+            bindings = <&bootloader>;
+            key-positions = <9 5>;
+        };
+
+        left-bootloader {
+            bindings = <&bootloader>;
+            key-positions = <0 4>;
+        };
     };
 
     behaviors {
