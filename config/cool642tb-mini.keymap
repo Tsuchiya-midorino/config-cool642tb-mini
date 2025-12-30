@@ -53,19 +53,19 @@
             key-positions = <18 19>;
         };
 
-        right-bootloader {
-            bindings = <&bootloader>;
-            key-positions = <9 5>;
+        mb4 {
+            bindings = <&mkp MB4>;
+            key-positions = <17 18>;
         };
 
         left-bootloader {
             bindings = <&bootloader>;
-            key-positions = <0 4>;
+            key-positions = <4 0>;
         };
 
-        mb4 {
-            bindings = <&mkp MB4>;
-            key-positions = <17 18>;
+        right-bootloader {
+            bindings = <&bootloader>;
+            key-positions = <5 9>;
         };
     };
 
