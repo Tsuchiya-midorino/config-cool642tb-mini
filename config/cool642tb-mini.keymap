@@ -48,16 +48,6 @@
             layers = <0>;
         };
 
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <21 20>;
-        };
-
-        Rshift {
-            bindings = <&kp RIGHT_SHIFT>;
-            key-positions = <33 32>;
-        };
-
         leftclic {
             bindings = <&mkp LCLK>;
             key-positions = <18 19>;
@@ -71,11 +61,6 @@
         left-bootloader {
             bindings = <&bootloader>;
             key-positions = <0 4>;
-        };
-
-        mb5 {
-            bindings = <&mkp MB5>;
-            key-positions = <17 16>;
         };
 
         mb4 {
