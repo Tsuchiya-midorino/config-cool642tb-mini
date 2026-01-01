@@ -53,17 +53,17 @@
             key-positions = <18 19>;
         };
 
-        mb4 {
+        Mb4 {
             bindings = <&mkp MB4>;
             key-positions = <17 18>;
         };
 
-        left-bootloader {
+        l-boot {
             bindings = <&bootloader>;
             key-positions = <4 0>;
         };
 
-        right-bootloader {
+        r-boot {
             bindings = <&bootloader>;
             key-positions = <5 9>;
         };
