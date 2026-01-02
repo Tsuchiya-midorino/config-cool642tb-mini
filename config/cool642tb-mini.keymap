@@ -114,7 +114,7 @@
 &kp Q       &kp W             &kp E         &kp R                       &kp T                                                    &kp Y      &kp U  &kp I        &kp O    &kp P
 &kp A       &kp S             &kp D         &kp F                       &kp G             &kp LG(LS(NUMBER_4))      &kakko       &kp H      &kp J  &kp K        &kp L    &kp MINUS
 &kp Z       &kp X             &kp C         &kp V                       &kp B             &kp LANG2                 &kagikakko   &kp N      &kp M  &lt 5 COMMA  &kp DOT  &kp SLASH
-&kp ESCAPE  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_COMMAND BACKSPACE  &lt 1 LEFT_SHIFT  &lt 3 LANG1               &lt 2 ENTER  &kp SPACE                               &mt RIGHT_SHIFT COLON
+&kp ESCAPE  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_COMMAND BACKSPACE  &lt 1 LEFT_SHIFT  &lt 2 LANG1               &lt 3 ENTER  &kp SPACE                               &mt RIGHT_SHIFT COLON
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -129,16 +129,7 @@
             >;
         };
 
-        SymbBT2 {
-            bindings = <
-&kp LS(EXCL)  &kp AT        &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                                &kp CARET    &kp AMPERSAND  &kp LS(UNDER)  &kp TILDE     &kp MINUS
-&kp SQT       &kp LS(LBRC)  &kp LBKT       &kp LS(LPAR)  &kp LS(DQT)    &kp LS(LT)       &kp LS(GT)   &kp LS(DQT)  &kp LS(RPAR)   &kp RBKT       &kp LS(RBRC)  &kp SQT
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4   &bootloader      &bootloader  &trans       &trans         &trans         &kp PIPE      &kp BACKSLASH
-&bt BT_CLR    &trans        &trans         &trans        &trans         &trans           &trans       &trans                                                   &trans
-            >;
-        };
-
-        Arrow3 {
+        Arrow2 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans    &trans          &kp UP_ARROW    &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
@@ -147,6 +138,15 @@
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+        };
+
+        SymbBT2 {
+            bindings = <
+&kp LS(EXCL)  &kp AT        &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                                &kp CARET    &kp AMPERSAND  &kp LS(UNDER)  &kp TILDE     &kp MINUS
+&kp SQT       &kp LS(LBRC)  &kp LBKT       &kp LS(LPAR)  &kp LS(DQT)    &kp LS(LT)       &kp LS(GT)   &kp LS(DQT)  &kp LS(RPAR)   &kp RBKT       &kp LS(RBRC)  &kp SQT
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4   &bootloader      &bootloader  &trans       &trans         &trans         &kp PIPE      &kp BACKSLASH
+&bt BT_CLR    &trans        &trans         &trans        &trans         &trans           &trans       &trans                                                   &trans
+            >;
         };
 
         MOUSE {
