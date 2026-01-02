@@ -120,7 +120,7 @@
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
-        FUNCTION1 {
+        numFUNCTION1 {
             bindings = <
 &kp TILDE          &kp F1   &kp F2   &kp F3   &kp KP_EQUAL                          &kp ASTRK        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS
 &kp SINGLE_QUOTE   &kp F4   &kp F5   &kp F6   &trans        &trans       &kp EXCL   &kp AT           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
