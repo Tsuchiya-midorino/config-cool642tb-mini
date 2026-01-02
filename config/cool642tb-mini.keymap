@@ -67,6 +67,16 @@
             bindings = <&bootloader>;
             key-positions = <5 9>;
         };
+
+        mb5 {
+            bindings = <&mkp MB5>;
+            key-positions = <16 17>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <21 20>;
+        };
     };
 
     behaviors {
